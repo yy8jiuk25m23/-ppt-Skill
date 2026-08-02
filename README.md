@@ -86,6 +86,41 @@ Render → compare → inspect → refine
 | Photos and complex artwork | Preserved as tightly cropped raster regions without adjacent labels |
 | Full-slide screenshot | Explicitly forbidden and checked during QA |
 
+## Real-world example / 真实案例
+
+<p align="center">
+  <strong>A dense graph-learning architecture figure, reconstructed as independently editable PowerPoint elements.</strong>
+  <br />
+  复杂图学习架构图：从参考图片重建为可单独选择和修改的 PowerPoint 元素。
+</p>
+
+<table>
+  <tr>
+    <th width="50%">Reference image · 原始参考图</th>
+    <th width="50%">Editable result · 可编辑重建结果</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="assets/showcase/graph-learning-reference.png">
+        <img src="assets/showcase/graph-learning-reference.png" width="100%" alt="Original graph-learning architecture reference image" />
+      </a>
+    </td>
+    <td align="center">
+      <a href="assets/showcase/graph-learning-editable-selected.png">
+        <img src="assets/showcase/graph-learning-editable-selected.png" width="100%" alt="Reconstructed PowerPoint with editable elements selected" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>Dense raster reference with graphs, arrows, labels, cards, and repeated visual structures.</td>
+    <td>The selection handles are intentionally visible: text boxes, lines, nodes, panels, and labels remain separate PowerPoint objects.</td>
+  </tr>
+</table>
+
+<p align="center">
+  <sub>Click either image to inspect it at full resolution. The right-hand screenshot shows editability—not a flattened background image.</sub>
+</p>
+
 ## Quick start
 
 ### 1. Install the Skill
