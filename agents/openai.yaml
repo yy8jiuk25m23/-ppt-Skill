@@ -1,0 +1,4 @@
+interface:
+  display_name: "图片转可编辑 PowerPoint"
+  short_description: "高还原重建参考图片为可编辑 16:9 PowerPoint"
+  default_prompt: "使用 $image-to-editable-pptx 将参考图片严格复刻为元素可单独编辑的 16:9 PowerPoint。"
